@@ -1,0 +1,17 @@
+@import url(./reset.css);
+@import url(./cabecalho.css);
+@import url(./variables.css);
+@import url(./components.css);
+body{
+    box-sizing: border-box;
+    background-color: var(--backGround);
+    font-family: var(--font);
+}
+
+
+.dia-consulta__titulo{
+    padding-left: 1rem;
+    color: var(--preto-font);
+    font-weight: var(--peso-bold);
+    margin-bottom: .5rem; 
+}

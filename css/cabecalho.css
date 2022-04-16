@@ -1,0 +1,22 @@
+.cabecalho{
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2.06rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__icones--bateria{
+    padding: 0 1rem;
+}
+

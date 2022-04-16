@@ -1,0 +1,151 @@
+.apresentacao{
+    margin-top: 4.06rem;
+    margin-right: 7.5625rem;
+    margin-left: 1rem;
+    margin-bottom: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 61vw;
+}
+
+.apresentacao__foto{
+    width: 3.55rem;
+    height: 3.55rem;
+    border-radius: 50%;
+   
+}
+.apresentacao__texto{
+  
+}
+
+.apresentacao__texto--titulo{
+    font-size: var(--tamanho-grande);
+    font-weight: var(--peso-bold);
+}
+
+.apresentacao__texto--texto{
+    color: var(--cinza);
+    font-size: var(--tamanho-medio);
+    font-weight: var(--peso-regular);
+}
+
+
+.consulta__cabecalho--remota{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .75rem;
+}
+
+.consulta__cabecalho--remota-dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.consulta__cabecalho--remota-nome{
+    font-size: var(--tamanho-medio);
+    color: var(--preto-font);
+    font-weight: var(--peso-bold);
+}
+
+.consulta__remota__local{
+    color: var(--cinza);
+    font-size: var(--tamanho-pequeno);
+    font-weight: var(--peso-regular);
+}
+
+.consulta__cabecalho--remota-foto{
+    width:2rem ;
+    height:2rem ;
+    border-radius: 50%;
+}
+.consulta__cabecalho--remota-dados-consulta{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.consulta__cabecalho--remota-texto{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.consulta__cabecalho--div-icone{
+    width:2rem ;
+    height:2rem ;
+    border-radius: 50%;
+    background-color: var(--cinza-icone);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
+}
+
+.consulta__cabecalho--remota-icone{
+
+    width:.83rem ;
+    height:.83rem ;
+}
+
+.consulta__horario--botao{
+    border-top: 1px solid var(--preto-font);
+    background-color: white;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.consulta__horario--texto{
+    font-size: var(--tamanho-pequeno);
+    font-weight: var(--peso-medium);
+    color: var(--preto-font);
+}
+
+.consulta__botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.consulta__botao--botao{
+    height: 3rem;
+    width: 100%;
+    border-radius: .5rem;
+    background-color: var(--azul);
+    box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+    font-size: var(--tamanho-medio);
+    font-weight: var(--peso-medium);
+    color: white;
+}
+
+
+.botao__video{
+    background-color: var(--laranja);
+}
+
+.botao__audio{
+    background-color: white;
+    color: var(--preto-font);
+}
+
+.consulta__cartao{
+    margin: 0 auto;
+    width: 91vw;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(22px);
+}
