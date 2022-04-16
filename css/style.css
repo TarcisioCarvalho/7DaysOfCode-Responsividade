@@ -2,12 +2,20 @@
 @import url(./cabecalho.css);
 @import url(./variables.css);
 @import url(./components.css);
+@import url(./rodape.css);
+@import url(./botao-flutuante.css);
+
+
 body{
     box-sizing: border-box;
     background-color: var(--backGround);
     font-family: var(--font);
 }
 
+
+.none{
+    display: none;
+}
 
 .dia-consulta__titulo{
     padding-left: 1rem;
